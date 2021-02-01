@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.login {
+  background: rgb(8, 8, 185);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.logout {
+  background: red;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
