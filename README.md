@@ -52,8 +52,8 @@ To manage application state with only Hooks, this project shows how to implement
 
 ### Built With
 
-* [](React)
-* [](Javascript)
+* [React]
+* [Javascript]
 
 
 <!-- GETTING STARTED -->
