@@ -12,12 +12,9 @@ export default function App() {
 
   const login = useCallback((token, expirationTime) => {
     setToken(token);
-    const expiration =
-      expirationTime || new Date(new Date().getTime() + 1000 * 60 * 60);
+    const expiration = expirationTime || new Date(new Date().getTime() + 1000 * 60 * 60);
     setTokenExpirationDate(expiration);
-    localStorage.setItem(
-      "userData",
-      JSON.stringify({
+    localStorage.setItem("userData", JSON.stringify({
         token,
         expirationTime: expiration.toISOString()
       })
